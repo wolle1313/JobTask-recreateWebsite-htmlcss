@@ -1,0 +1,61 @@
+aside {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+}
+
+aside .description {
+  height: 45%;
+  width: 48%;
+  padding: 15px 26px 15px 22px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+}
+aside .description:nth-of-type(2) {
+  margin-top: 5%;
+}
+aside .description:nth-of-type(3) {
+  margin: 4.3% 0;
+}
+aside .description:nth-of-type(1) i {
+  background-color: rgb(187, 222, 251);
+  color: rgb(30, 136, 229);
+}
+aside .description:nth-of-type(2) i {
+  background-color: rgb(255, 249, 196);
+  color: rgb(249, 168, 37);
+}
+aside .description:nth-of-type(3) i {
+  background-color: rgb(200, 230, 201);
+  color: rgb(67, 160, 72);
+}
+aside .description:nth-of-type(4) i {
+  background-color: rgb(225, 190, 231);
+  color: rgb(141, 37, 170);
+}
+aside .description i {
+  font-size: 18px;
+  border-radius: 5px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: green;
+  margin-bottom: 15px;
+}
+aside span {
+  line-height: 30px;
+  color: rgb(26, 35, 126);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+aside p {
+  color: rgb(99, 113, 195);
+  font-size: 13px;
+  line-height: 20px;
+}

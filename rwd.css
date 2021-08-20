@@ -1,0 +1,104 @@
+@media (max-width: 1420px) {
+  .wrapper {
+    height: 800px;
+  }
+  main {
+    padding-right: 50px;
+  }
+  main .mainText {
+    color: rgb(26, 35, 126);
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+
+  main .bottomText {
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  aside .description {
+    height: 40%;
+    width: 48%;
+    padding: 10px 26px 10px 22px;
+  }
+  aside .description i {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  aside span {
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  aside p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #explanation img {
+    height: 55vw;
+    width: 100vw;
+  }
+}
+@media (max-width: 1010px) {
+  .wrapper {
+    flex-direction: column;
+    height: initial;
+    width: 100%;
+  }
+  .wrapper > * {
+    width: 90%;
+  }
+  .wrapper main {
+    height: 300px;
+  }
+  .wrapper aside {
+    height: 450px;
+  }
+}
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 50px 20px;
+  }
+  .wrapper main {
+    height: 400px;
+    padding-right: 10px;
+  }
+
+  .wrapper aside {
+    height: initial;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  aside .description {
+    width: 80%;
+    height: 200px;
+  }
+  aside .description i {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 35px;
+    line-height: 35px;
+  }
+  aside span {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  aside p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px) {
+  .wrapper {
+    padding: 50px 5px;
+  }
+  .wrapper main {
+    height: 500px;
+    padding-left: 20px;
+  }
+  aside .description {
+    height: 250px;
+  }
+  main .mainText {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/522c1253d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="aside.css">
+    <link rel="stylesheet" href="rwd.css">
+    <title>Zadanie-nr-1</title>
+</head>
+
+<body>
+   
+    <div id="explanation"><img src="pics/zadanie-nr-1.jpg"/></div>
+    <div class="wrapper">
+        <div id="btnExplanation"><i class="fas fa-bars"></i></div>
+        <main>
+            <span class="topText">lorem ipsum</span>
+            <p class="mainText"><span>Lorem ipsum</span> dolor sit amet consectetur.</p> 
+            <p class="bottomText">Suspendisse aliquam tellus ante, porttitor mattis diam eleifend quis. Pellentesque pulvinar commodo eros sit amet finibus. Aenean et ornare erat.</p>
+            <button>Action</button>
+        </main>
+        <aside>
+            <div class="description"><i class="fas fa-building"></i>
+                <span>Ut dui neque, volutpat ac erat quis, lobortis.</span>
+                <p>In eget ligua ut est interdum finibus. Etiam consectetur, libero tincidunt vulputate fermentum.</p>
+            </div>
+            <div class="description"><i class="fas fa-building"></i>
+                <span>Ut dui neque, volutpat ac erat quis, lobortis.</span>
+                <p>In eget ligua ut est interdum finibus. Etiam consectetur, libero tincidunt vulputate fermentum.</p>
+            </div>
+            <div class="description"><i class="fas fa-building"></i>
+                <span>Ut dui neque, volutpat ac erat quis, lobortis.</span>
+                <p>In eget ligua ut est interdum finibus. Etiam consectetur, libero tincidunt vulputate fermentum.</p>
+            </div>
+            <div class="description"><i class="fas fa-building"></i>
+                <span>Ut dui neque, volutpat ac erat quis, lobortis.</span>
+                <p>In eget ligua ut est interdum finibus. Etiam consectetur, libero tincidunt vulputate fermentum.</p>
+            </div>
+        </aside>
+    </div>
+    <script>
+        const btnExplanation = document.getElementById('btnExplanation');
+        const explanation = document.getElementById('explanation')
+        btnExplanation.addEventListener('click', function() {
+            explanation.classList.add('active');
+        })
+        explanation.addEventListener('click', function() {
+            if(explanation.classList.contains('active')) {
+                explanation.classList.remove('active')
+            }
+        })
+    </script>
+</body>
+
+</html>

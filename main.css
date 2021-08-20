@@ -1,0 +1,46 @@
+main {
+  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .topText {
+  color: rgb(98, 118, 250);
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+main .mainText {
+  color: rgb(26, 35, 126);
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+main .mainText span {
+  color: rgb(49, 78, 254);
+}
+
+main .bottomText {
+  color: rgb(99, 113, 195);
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+main button {
+  align-self: flex-start;
+  padding: 8px 15px;
+  background-color: rgb(255, 171, 2);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+main button:hover {
+  background-color: rgb(247, 222, 6);
+  cursor: pointer;
+}
